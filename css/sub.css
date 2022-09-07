@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+.sub_wrap{
+  background: #efefef;
+}
+.sub_title{
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+}
+.sub_title h2{
+  text-align: center;
+  line-height: 50px;
+}
+
+.sub_con{
+
+}
+.sub_con > p{
+  padding: 20px 0 10px 12px; /*위 오른쪽 아래 왼쪽*/
+  font-size: 14px;
+  letter-spacing: -0.5px;
+}
+
+.sub_search{
+  position: relative;
+  background: #fff;
+  border: 1px solid #ddd;
+  margin: 0 12px; /*위아래 좌우*/
+  padding: 25px 17px 17px;
+  border-radius: 5px;
+}
+.sub_search_input{
+  width: calc(100% - 80px); /*calc사용할땐 띄어쓰기 확인필요*/
+  height: 30px;
+  padding-left: 10px;
+  border: none;
+  border-bottom:1.5px solid #ddd ;
+  outline-style: none;
+}
+.sub_search_input::placeholder{
+  color: rgb(145, 145, 145);
+  font-size: 12px;
+}
+.sub_search_btn{
+  position: absolute;
+  right: 12px;
+  display: inline-block;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 3px;
+  width: 50px;
+  background: #666;
+  color: #fff;
+  font-size: 12px;
+  
+}
+
+.conlist{
+  padding: 20px 6px 0;
+  overflow: hidden;
+}
+.conlist li{
+  float: left;
+  width: 50%;
+  padding:6px;
+}
+.conlist a{
+  display: block;
+  height: 100px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  text-align: center;
+}
+.conlist img{
+
+}
